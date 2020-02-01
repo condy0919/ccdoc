@@ -1,3 +1,10 @@
+#[macro_use]
+extern crate log;
+
+pub mod clang;
+
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
+
+    info!("fdfd");
 }
